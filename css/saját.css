@@ -1,0 +1,778 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my-row{
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.my-column{
+    margin: 30px;
+}
+.my-footer{
+    background-color: black;
+    color: gray;
+}
+.my-title1{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.myimage{
+    height: 540px;
+}
+
+.icon{
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    color: rgb(128,0,0);
+}
+
+
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: merienda;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	font-family: poppins;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	background: #262626;
+	padding: 10px 30px;
+	display: inline-block;
+	color: rgb(128,0,0);
+	margin-top: 15px;
+}
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+footer{
+	width: 100%;
+	background-color: rgb(128,0,0);
+	padding: 1%;
+	color: rgb(242, 222, 163);
+}
+.fa{
+	padding: 15px;
+	font-size: 20px;
+	color: rgb(242, 222, 163);
+}
+
+.fa:hover{
+	color: rgb(81, 196, 193);
+	text-decoration: none;
+}
+
+.xyz {
+	background-size: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.btn-circle.btn-sm {
+	width: 30px;
+	height: 30px;
+	padding: 6px 0px;
+	border-radius: 15px;
+	font-size: 8px;
+	text-align: center;
+}
+.btn-circle.btn-md {
+	width: 50px;
+	height: 50px;
+	padding: 7px 10px;
+	border-radius: 25px;
+	font-size: 10px;
+	text-align: center;
+}
+.btn-circle.btn-xl {
+	width: 70px;
+	height: 70px;
+	padding: 10px 16px;
+	border-radius: 35px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.szamPlusz{
+	width: 50px;
+	text-align: center;
+}
+
+#pluszMinusz{
+	margin: 0 auto;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.formnak{
+	background-color: white;
+}
+.link1{
+	color: rgb(242, 222, 163);
+}
+.link1:hover{
+	color: rgb(81, 196, 193);
+	text-decoration: none;
+}
+.link1:active{
+	color: rgb(54, 126, 123);
+	text-decoration: none;
+}
+
+.alahuzas{
+	color: rgb(78, 1, 1);
+	border: 1px solid rgb(78, 1, 1);
+}
+
+.cimFooter{
+	padding-bottom: 5px;
+}
+
+.footerMedia{
+	padding-bottom: 10px;
+}
+
+.cimalahuzas{
+	width: 70px;
+}
+
+.headerGomb1{
+	width: 150px;
+	background-color: rgb(128,0,0);
+	border: none;
+	color: rgb(242, 222, 163);
+}
+
+.headerGomb1:hover{
+	background-color: rgb(242, 222, 163);
+	color: rgb(128,0,0);
+	
+}
+.headerGomb1:active{
+	background-color: rgb(242, 222, 163);
+	color: rgb(128,0,0);
+	
+}
+
+.headerGomb2{
+	width: 150px;
+	background-color: rgb(78, 1, 1);
+	border: none;
+	color: rgb(242, 222, 163);
+}
+.headerGomb2:hover{
+	background-color: rgb(242, 222, 163);
+	color: rgb(78, 1, 1);
+}
+.headerGomb2:active{
+	background-color: rgb(242, 222, 163);
+	color: rgb(78, 1, 1);
+}
+
+.ertesitesKep{
+	max-width: 500px;
+	max-height: 500px;
+}
+
+.figyelemfelkeltContainer{
+	padding-top: 50px ;
+	padding-bottom: 50px ;
+}
+
+.figyelemfelkelt{
+	background-color: rgb(128,0,0);
+	color: white;
+}
+
+.figyelemfelkeltEmail{
+	border: rgb(128,0,0) 1px  solid ;
+	width: 60%;
+	border-radius: 5px;
+}
+.figyelemfelkeltGomb{
+	background-color: rgb(242, 222, 163);
+	border: none;
+	color: rgb(128,0,0);
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: initial;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	
+}
+.figyelemfelkeltCim{
+	padding-top: 40px;
+}
+
+.logoHeader{
+	padding-top: 10px;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgb(128,0,0);
+  }
+
+  .text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+  }
+
+  .keptarto {
+	position: relative;
+	width: 100%;
+  }
+
+  .keptarto:hover .overlay {
+	opacity: 6;
+  }
+  .honapDolgozoja {
+	display: block;
+	width: 100%;
+    height: auto;
+  }
+
+  .indexcim1{
+	  color: rgb(128,0,0);
+	  font-weight: bold;
+	  font-family: serif;
+	  text-align: center;
+  }
+
+  .atfedesszin1{
+	  background-color: rgb(255, 241, 241);
+	  padding-bottom: 40px;
+  }
+
+  .lehetosegekKepek{
+	width: 250px;
+	height: 250px;
+  }
+
+  .atfedesszin2{
+	background-color: rgb(97, 64, 64);
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.lehetosegekSzovegek{
+	padding-top: 40px;
+	color: rgb(242, 222, 163);
+	font-size: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.indexcim2{
+	color: rgb(242, 222, 163);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding-bottom: 50px;
+}
+
+.copyright{
+	padding-top: 30px;
+	font-size: 10px;
+}
+
+.legordulo{
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	background-color: rgb(242, 222, 163);
+	padding: 0px;
+}
+
+.dropdown-toggle::after {
+content: none;
+}
+
+.motto{
+	font-style: italic;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 35px;
+	color: rgb(128,0,0);
+}
+
+.hirekCol{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.hirekCard{
+	min-height: 460px;
+}
+
+.hirekCard:hover{
+	transform: none;
+}
+
+.hirekKepek {
+	height: 232px;
+    object-fit: cover;
+}
+
+.tovabbiCikkekGomb{
+	width: 150px;
+	background-color: rgb(128,0,0);
+	border: none;
+	border-radius:20px;
+	color: rgb(242, 222, 163);
+}
+
+.tovabbiCikkekGomb:hover{
+	background-color: rgb(242, 222, 163);
+	color: rgb(128,0,0);
+	
+}
+
+.tovabbiCikkekGomb2{
+	width: 150px;
+	background-color: rgb(128,0,0);
+	border: none;
+	border-radius:20px;
+	color: rgb(242, 222, 163);
+	opacity: 80%;
+}
+
+.tovabbiCikkekGomb2:hover{
+	background-color: rgb(242, 222, 163);
+	color: rgb(128,0,0);
+}
+
+.hirekContainer{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.pluszMinusz{
+	background-color: rgb(128,0,0);
+	color: rgb(242, 222, 163);
+	border: none;
+  	padding: 3px 3px;
+  	text-align: center;
+	font-size: 19px;
+	border-radius: 150px;
+	width: 34px;
+}
+
+.pluszMinusz:hover{
+	background-color: rgb(242, 222, 163);
+	color: rgb(128,0,0);
+}
+
+.mennyiseg{
+	width: 60px;
+	text-align: center;
+	border: gray
+}
+
+.pluszMinuszRes{
+	padding-bottom: 15px;
+}
+
+.termekKepek{
+	height: 267px;
+}
+
+.cikkCim{
+	font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    display: inline-block;
+	text-align: center;
+	color: rgb(128,0,0);
+}
+
+#home{
+	background: url(../images/képek/lebego/hatter.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-szoveg{
+	text-align: center;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: rgb(242, 222, 163);
+	padding-top: 250px;
+	padding-bottom: 250px;
+  	-webkit-text-stroke-color: rgb(128,0,0);
+	text-shadow: 2px 2px gray;
+}
+.landing-szoveg h1{
+	font-size: 500%;
+	font-weight: 700;
+	-webkit-text-stroke-width: 0.3px;
+	
+}
+.landing-szoveg h3{
+	font-size: 200%;
+	font-weight: 300;
+	-webkit-text-stroke-width: 0.1px;
+}
+
+.btnfocim {
+	color: rgb(81, 196, 193);
+	cursor: pointer;
+	font-size:23px;
+	font-weight: 400;
+	line-height: 45px;
+	margin: 0 0 2em;
+	max-width: 160px; 
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 100%; 
+}
+
+/* forrás: https://dev.to/webdeasy/top-20-css-buttons-animations-f41 */
+
+.btn-2 {
+    letter-spacing: 0;
+	text-shadow: none;
+	-webkit-text-stroke-width: 0;
+  	-webkit-text-stroke-color: none;
+}
+
+.btn-2:hover,
+.btn-2:active {
+  letter-spacing: 5px;
+}
+
+.btn-2:after,
+.btn-2:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(rgb(81, 196, 193), 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.btn-2:hover:after,
+.btn-2:hover:before {
+  backface-visibility: hidden;
+  border-color: rgb(81, 196, 193);
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.btn-2:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+/* forrás: https://blog.hubspot.com/website/css-fade-in */
+
+.belebeg {
+
+	animation: fadeIn linear 5s;
+	-webkit-animation: fadeIn linear 5s;
+	-moz-animation: fadeIn linear 5s;
+	-o-animation: fadeIn linear 5s;
+	-ms-animation: fadeIn linear 5s;
+  }
+  
+  @keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  /*forrás: http://jsfiddle.net/e5qaD/4837/  */
+
+.hideme{
+    opacity:0;
+}
+.showme {
+	opacity:1!important;
+	-webkit-transition: all 1s ease; transition: all 1s ease;
+  }
+
+  ul{
+	  color: rgb(128, 0, 0);
+  }
+
+  .kategoriaLink{
+	  text-decoration: none;
+	  font-size: 30px;
+	  font-family: serif;
+	  color: rgb(128, 0, 0);
+  }
+
+  .kategoriaLink:hover{
+	  text-decoration: none;
+	  color: rgb(78, 1, 1);
+  }
+
+  .bejelentkezesCol{
+	  border: gray 1px solid;
+	  border-radius: 25px;
+	  box-shadow: gray 1px 1px 1px 1px;
+	  padding: 25px;
+  }
+
+  .bejelentkezesKulsoCont{
+	  padding-top: 150px;
+	  padding-bottom: 250px;
+  }
+
+  .bejelentkezesInput{
+	  border: none;
+	  border-bottom: solid 3px rgb(128, 0, 0);
+	  outline: none;
+	  width: 100%;
+  }
+
+  .bejelentkezesInput:focus{
+	border-bottom: solid 3px rgb(242, 222, 163);
+}
+
+  .bejelentkezesGombLentebb{
+	  padding-top: 10px;
+  }
+
+  .bejelentkezesLink{
+	  font-size: 13px;
+  }
+  .bejelentkezesLabel{
+	  padding-top: 5px;
+	  color: rgb(128, 0, 0);
+	  font-weight: bold;
+  }
+
+  .bejelentkezesCim{
+	  color: rgb(128, 0, 0);
+	  font-weight: bold;
+	  text-align: center;
+	  text-transform: uppercase;
+  }
+
+  .motto{
+	font-family: 'Satisfy';
+  }
+
+  .myIcon{
+	  height: 24px;
+	  width: 24px;
+  }
+
+  .kapcsolatText{
+	  color: rgb(128, 0, 0);
+  }
+
+  .cikkFluid{
+	  background-color: rgb(128, 0, 0);
+	  color: rgb(242, 222, 163);
+	  padding-top: 60px;
+	  padding-bottom: 60px;
+  }
+
+  .cikkCimHely{
+	  padding-top: 100px;
+  }
+
+  .allasCont{
+	border: gray 1px solid;
+	border-radius: 25px;
+	box-shadow: gray 1px 1px 1px 1px;
+	padding: 25px;
+  }
+
+  .allasInput{
+	border: none;
+	border-bottom: solid 3px rgb(128, 0, 0);
+	outline: none;
+}
+.allasKulsoCont{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.allasOneletrajz{
+	color: rgb(128, 0, 0);
+	font-size: 14px;
+	font-style: italic;
+}
+
+#fixed{
+	background: url(../images/képek/stock/stock12.jpg) no-repeat center center fixed;
+	display: table;
+	height: 400px;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.allasCim{
+	color: rgb(128, 0, 0);
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 40px;
+}
+.allasValami{
+	padding-bottom: 100px;
+}
+
+.navbarLi{
+	padding-right: 50px;
+}
+.navImg{
+    height: 50px;
+}
+
+nav{
+	background-color: rgb(242, 222, 163);
+}
+
+.navLink{
+	text-decoration: none;
+	color: rgb(128, 0, 0);
+}
+.navLink:hover{
+	text-decoration: none;
+	color: rgb(80, 0, 0);
+}
+
+.navbar-light .navbar-brand {
+	color: rgb(128, 0, 0);
+  }
+  
+  .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+	color: rgb(128, 0, 0);
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+	color: rgb(128, 0, 0);
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+	color: rgb(128, 0, 0);
+  }
+  
+  .navbar-light .navbar-nav .nav-link.disabled {
+	color: rgb(128, 0, 0);
+  }
+  
+  .navbar-light .navbar-nav .show > .nav-link,
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .nav-link.active {
+	color: rgb(128, 0, 0);
+  }
+  
+  .navbar-light .navbar-toggler {
+	color: white;
+	border-color: rgb(128, 0, 0);
+  }
+  
+  .navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+  .navbar-light .navbar-text {
+	color: rgb(128, 0, 0);
+  }
+  
+  .navbar-light .navbar-text a {
+	color: rgb(128, 0, 0);
+  }
+  
+  .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
+	color: rgb(128, 0, 0);
+  }
+
+  .termekRow{
+	border: gray 1px solid;
+	border-radius: 25px;
+	box-shadow: gray 1px 1px 1px 1px;
+	padding: 25px;
+  }
+
+  .termekRowCont{
+	  padding-top: 40px;
+	  padding-bottom: 40px;
+  }
+
+  
